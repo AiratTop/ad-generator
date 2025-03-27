@@ -1,86 +1,86 @@
 ## Changelog
 
 ### 2.2.0
-* Исправлен баг с подменой лишних пробелов
-* Рефакторинг кода рандомизатора
-* Добавлено больше примеров шаблонов
+* Fixed bug with incorrect space replacements  
+* Refactored randomizer code  
+* Added more template examples
 
 ### 2.0.1
-* Исправлен баг с появлением лишних пробелов (#12)
+* Fixed bug with extra spaces appearing (#12)
 
 ### 2.0.0
-* Добавлена новая консольная версия
-* Обработка ошибок и справка в консольной версии
-* Добавлены теги label к выбору вариантов
-* Поправлено удаление лишних пробелов в результатах
+* Added new command-line version  
+* Error handling and help support in CLI  
+* Added `label` tags for option selection  
+* Fixed extra space cleanup in output
 
 ### 1.4.0
-* Увеличено число допустимых символов с 4000 до 10000
-* Исправлен автофокус на странице с формой
+* Increased character limit from 4000 to 10000  
+* Fixed autofocus issue on the form page
 
 ### 1.3.2
-* Добавлены айдишники к выбору количества результатов
-* Обновлен URL лицензии
-* Добавлены скриншоты в README.md
-* Обновлены файлы для репозитория GitHub (DOCUMENTATION, ISSUE_TEMPLATE, README)
-* Изменен регистр названия репозитория Ad-Generator -> ad-generator
-* Обновлены файлы переводов
+* Added IDs to result count selection  
+* Updated license URL  
+* Added screenshots to README.md  
+* Updated GitHub repo files (DOCUMENTATION, ISSUE_TEMPLATE, README)  
+* Changed repository name case: Ad-Generator → ad-generator  
+* Updated translation files
 
 ### 1.3.1
-* Форматирование вывода результатов
-* Обновлены файлы переводов
+* Improved result formatting  
+* Updated translations
 
 ### 1.3.0
-* Добавлена возможность выбора количество отображаемых результатов
+* Added option to select the number of results displayed
 
 ### 1.2.3
-* %rand% возвращает случайное число от 0 до 9
-* Исправлена ошибка с лишними символами \
-* Форматирование и оптимизация кода
+* `%rand%` now returns a random number from 0 to 9  
+* Fixed issue with stray `\` characters  
+* Code formatting and optimization
 
 ### 1.2.2
-* Теперь работает поддержка разных языков (пока русский и английский)
+* Multilingual support added (currently Russian and English)
 
 ### 1.2.1
-* Добавил автоматические обновления через GitHub Updater
-* Поправил changelog.md
-* Прописал метаданные пакета
-* Поправил /languages/
-* Поправил шаблон генератора
+* Added automatic updates via GitHub Updater  
+* Updated changelog.md  
+* Added package metadata  
+* Fixed `/languages/` path  
+* Updated generator template
 
 ### 1.2.0
-* Добавил поддержку языковых файлов
-* Добавил русские и английские переводы
-* Обновил "рыбу" для рандомизации
-* Уменьшил макс. число символов в форме до 4000
+* Added support for language files  
+* Included Russian and English translations  
+* Updated placeholder text samples  
+* Reduced max input length to 4000 characters
 
 ### 1.1.1
-* Добавлены айдишники ко всем полям и элементам
-* Настроена ширина поля. Оптимизация под мобильники
-* Визуальные настройки отображения элементов
-* Добавил поддержку composer (файл composer.json)
-* Расширил ISSUE_TEMPLATE.md
-* Оптимизация кода
+* Added IDs to all fields and elements  
+* Adjusted input width for mobile optimization  
+* UI styling improvements  
+* Added composer support (composer.json)  
+* Expanded ISSUE_TEMPLATE.md  
+* Code optimization
 
 ### 1.1.0
-* Решена проблема с множественными пробелами
-* Добавлена ссылка на проект GitHub
-* Добавлена кнопка очистки результатов
-* Настроено визульное оформление результатов
-* Обработка частных случаев разного количества результатов
-* Очистка вывода от обилия слешей
+* Fixed issue with multiple spaces  
+* Added GitHub project link  
+* Added "Clear Results" button  
+* Improved result formatting and layout  
+* Better handling of varying result counts  
+* Removed excessive slashes from output
 
 ### 1.0.2
-* Решил проблему с переносом строк
-* Добавил файлы для GitHub
-* Настроил правильный вывод результатов
+* Fixed line break issue  
+* Added GitHub files  
+* Fixed output formatting
 
 ### 1.0.1
-* Объединил всё в одну функцию. Убрал лишнее и поправил ошибки
-* Проверил на тестовом сайте - всё работает
-Дальше:
-* Нужно навести красоту
-* Сделать так, чтобы генерировалось с переносами строк
+* Merged logic into a single function, removed redundant code, fixed bugs  
+* Successfully tested on a demo site  
+Next steps:  
+* Improve visual design  
+* Ensure generated results include proper line breaks
 
 ### 1.0.0
 * Initial Release
