@@ -10,11 +10,11 @@
  * -h, --help - show help message
  */
 /**
- * @package    airatvibe/ad-generator
+ * @package    AiratTop/ad-generator
  * @category   Core
  * @author     Airat Halitov
  * @license    GPLv3
- * @link       https://github.com/airatvibe/ad-generator
+ * @link       https://github.com/AiratTop/ad-generator
  * @version    2.2.0
  */
 
@@ -35,7 +35,7 @@ Arguments:
   -h, --help \tshow help message
 
 Author: Airat Halitov
-Link: https://github.com/airatvibe/ad-generator\n\n
+Link: https://github.com/AiratTop/ad-generator\n\n
 END;
 }
 
