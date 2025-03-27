@@ -1,114 +1,114 @@
-=== Ad Generator ===
-Contributors: Airat Halitov
-Requires at least: 3.8
-Tested up to: 5.6
-Stable tag: 2.2.0
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+=== Ad Generator ===  
+Contributors: Airat Halitov  
+Requires at least: 3.8  
+Tested up to: 5.6  
+Stable tag: 2.2.0  
+License: GPLv3  
+License URI: https://www.gnu.org/licenses/gpl-3.0.html  
 
 Professional text randomizer and ad generator.
 
 == Description ==
 
-Профессиональный рандомизатор текста и генератор объявлений для досок объявлений
+Professional text randomizer and ad generator for classifieds.
 
 == Installation ==
 
-1. Visit 'Plugins > Add New'
-2. Click 'Upload Plugin'
-3. Upload the file 'ad-generator.zip'
-4. Activate Ad Generator from your Plugins page.
-5. Add [ad_generator] shortcode to WordPress Page.
+1. Go to 'Plugins > Add New'  
+2. Click 'Upload Plugin'  
+3. Upload the 'ad-generator.zip' file  
+4. Activate Ad Generator from the Plugins page  
+5. Add the `[ad_generator]` shortcode to a WordPress page
 
 = Configuration =
 
-1. Create new WordPress Page, add [ad_generator] shortcode and save
-2. Go to page and use ad generator
-3. Enjoy
+1. Create a new WordPress page, insert the `[ad_generator]` shortcode and save  
+2. Open the page and use the ad generator  
+3. Enjoy!
 
 == Changelog ==
 
-= 2.2.0 =
-* Исправлен баг с подменой лишних пробелов
-* Рефакторинг кода рандомизатора
-* Добавлено больше примеров шаблонов
+= 2.2.0 =  
+* Fixed bug with extra space replacements  
+* Refactored randomizer code  
+* Added more template examples
 
-= 2.0.1 =
-* Исправлен баг с появлением лишних пробелов (#12)
+= 2.0.1 =  
+* Fixed bug with unexpected extra spaces (#12)
 
-= 2.0.0 =
-* Добавлена новая консольная версия
-* Обработка ошибок и справка в консольной версии
-* Добавлены теги label к выбору вариантов
-* Поправлено удаление лишних пробелов в результатах
+= 2.0.0 =  
+* Added new CLI version  
+* CLI error handling and help added  
+* Added label tags to option selection  
+* Fixed trimming of extra spaces in output
 
-= 1.4.0 =
-* Увеличено число допустимых символов с 4000 до 10000
-* Исправлен автофокус на странице с формой
+= 1.4.0 =  
+* Increased max character count from 4000 to 10000  
+* Fixed autofocus issue on form page
 
-= 1.3.2 =
-* Добавлены айдишники к выбору количества результатов
-* Обновлен URL лицензии
-* Добавлены скриншоты в README.md
-* Обновлены файлы для репозитория GitHub (DOCUMENTATION, ISSUE_TEMPLATE, README)
-* Изменен регистр названия репозитория Ad-Generator -> ad-generator
-* Обновлены файлы переводов
+= 1.3.2 =  
+* Added IDs to result count selectors  
+* Updated license URL  
+* Added screenshots to README.md  
+* Updated GitHub files (DOCUMENTATION, ISSUE_TEMPLATE, README)  
+* Renamed Ad-Generator → ad-generator  
+* Updated translation files
 
-= 1.3.1 =
-* Форматирование вывода результатов
-* Обновлены файлы переводов
+= 1.3.1 =  
+* Output formatting improvements  
+* Updated translations
 
-= 1.3.0 =
-* Добавлена возможность выбора количество отображаемых результатов
+= 1.3.0 =  
+* Added selectable number of result variations
 
-= 1.2.3 =
-* %rand% возвращает случайное число от 0 до 9
-* Исправлена ошибка с лишними символами \
-* Форматирование и оптимизация кода
+= 1.2.3 =  
+* `%rand%` now returns a random digit (0–9)  
+* Fixed bug with stray `\` characters  
+* Code formatting and optimization
 
-= 1.2.2 =
-* Теперь работает поддержка разных языков (пока русский и английский)
+= 1.2.2 =  
+* Added multi-language support (currently Russian and English)
 
-= 1.2.1 =
-* Добавил автоматические обновления через GitHub Updater
-* Поправил changelog.md
-* Прописал метаданные пакета
-* Поправил /languages/
-* Поправил шаблон генератора
+= 1.2.1 =  
+* Added GitHub Updater support  
+* Fixed changelog.md  
+* Updated package metadata  
+* Fixed /languages/ directory  
+* Fixed generator template
 
-= 1.2.0 =
-* Добавил поддержку языковых файлов
-* Добавил русские и английские переводы
-* Обновил "рыбу" для рандомизации
-* Уменьшил макс. число символов в форме до 4000
+= 1.2.0 =  
+* Added language file support  
+* Added Russian and English translations  
+* Updated example templates  
+* Reduced max form character limit to 4000
 
-= 1.1.1 =
-* Добавлены айдишники ко всем полям и элементам
-* Настроена ширина поля. Оптимизация под мобильники
-* Визуальные настройки отображения элементов
-* Добавил поддержку composer (файл composer.json)
-* Расширил ISSUE_TEMPLATE.md
-* Оптимизация кода
+= 1.1.1 =  
+* Added IDs to all fields and elements  
+* Set input width for better mobile UX  
+* UI layout improvements  
+* Added composer support (composer.json)  
+* Expanded ISSUE_TEMPLATE.md  
+* Code optimization
 
-= 1.1.0 =
-* Решена проблема с множественными пробелами
-* Добавлена ссылка на проект GitHub
-* Добавлена кнопка очистки результатов
-* Настроено визульное оформление результатов
-* Обработка частных случаев разного количества результатов
-* Очистка вывода от обилия слешей
+= 1.1.0 =  
+* Fixed issue with multiple spaces  
+* Added GitHub project link  
+* Added results reset button  
+* Improved result display styling  
+* Improved handling of result count variations  
+* Cleaned up excessive backslashes in output
 
-= 1.0.2 =
-* Решил проблему с переносом строк
-* Добавил файлы для GitHub
-* Настроил правильный вывод результатов
+= 1.0.2 =  
+* Fixed line break issue  
+* Added GitHub support files  
+* Corrected result rendering
 
-= 1.0.1 =
-* Объединил всё в одну функцию. Убрал лишнее и поправил ошибки
-* Проверил на тестовом сайте - всё работает
-Дальше:
-* Нужно навести красоту
-* Сделать так, чтобы генерировалось с переносами строк
+= 1.0.1 =  
+* Combined all logic into one function, removed redundant code, fixed bugs  
+* Successfully tested on demo site  
+Next:  
+* Improve UI  
+* Enable generation with proper line breaks
 
-= 1.0.0 =
+= 1.0.0 =  
 * Initial Release
