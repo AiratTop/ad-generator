@@ -1,24 +1,24 @@
 <?php
 /**
  * Plugin Name:        Ad Generator
- * Plugin URI:         https://github.com/airatvibe/ad-generator
+ * Plugin URI:         https://github.com/AiratTop/ad-generator
  * Description:        Professional text randomizer and ad generator.
  * Author:             Airat Halitov
- * Author URI:         https://airatvibe.com
+ * Author URI:         https://AiratTop.com
  * Version:            2.2.0
  * Text Domain:        ad-generator
  * Domain Path:        /languages/
  * Requires WP:        3.8
  * Requires PHP:       5.4
  * Release Asset:      true
- * GitHub Plugin URI:  https://github.com/airatvibe/ad-generator
+ * GitHub Plugin URI:  https://github.com/AiratTop/ad-generator
  */
 /**
- * @package    airatvibe/ad-generator
+ * @package    AiratTop/ad-generator
  * @category   Core
  * @author     Airat Halitov
  * @license    GPLv3
- * @link       https://github.com/airatvibe/ad-generator
+ * @link       https://github.com/AiratTop/ad-generator
  * @version    2.2.0
  */
 
