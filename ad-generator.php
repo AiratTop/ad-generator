@@ -4,7 +4,7 @@
  * Plugin URI:         https://github.com/AiratTop/ad-generator
  * Description:        Professional text randomizer and ad generator.
  * Author:             Airat Halitov
- * Author URI:         https://AiratTop.com
+ * Author URI:         https://airat.top
  * Version:            2.2.0
  * Text Domain:        ad-generator
  * Domain Path:        /languages/
