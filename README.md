@@ -1,307 +1,187 @@
-# [Ad Generator](https://github.com/airatvibe/ad-generator)
-* Contributors: [Airat Halitov](https://github.com/airatvibe)
-* Requires at least: 3.8
-* Tested up to: 5.6
-* Stable tag: [2.2.0](https://github.com/airatvibe/ad-generator/releases/latest)
-* License: GPLv3
-* License URI: https://www.gnu.org/licenses/gpl-3.0.html
+# [Ad Generator](https://github.com/AiratTop/ad-generator)
+* Contributors: [Airat Halitov](https://github.com/AiratTop)
+* Requires at least: 3.8  
+* Tested up to: 5.6  
+* Stable tag: [2.2.0](https://github.com/AiratTop/ad-generator/releases/latest)  
+* License: GPLv3  
+* License URI: https://www.gnu.org/licenses/gpl-3.0.html  
 
-Профессиональный рандомизатор текста и генератор объявлений от Айрата Халитова / Professional text randomizer and ad generator. Author: Airat Halitov
+Professional text randomizer and ad generator by Airat Halitov.
 
+## Description
 
-## Описание
+Professional text randomizer and ad generator by Airat Halitov.
 
-Профессиональный рандомизатор текста и генератор объявлений от Айрата Халитова / Professional text randomizer and ad generator. Author: Airat Halitov
+## Installation
 
-## Установка
-
-1. Visit 'Plugins > Add New'
+1. Go to 'Plugins > Add New'
 2. Click 'Upload Plugin'
-3. Upload the file 'ad-generator.zip'
-4. Activate Ad Generator from your Plugins page.
-5. Add [ad_generator] shortcode to WordPress Page.
+3. Upload the 'ad-generator.zip' file
+4. Activate Ad Generator on your Plugins page
+5. Add the `[ad_generator]` shortcode to a WordPress page
 
-## Настройка
+## Setup
 
-1. Create new WordPress Page, add [ad_generator] shortcode and save
-2. Go to page and use ad generator
-3. Enjoy
+1. Create a new WordPress page, insert `[ad_generator]` shortcode, and save
+2. Visit the page and use the ad generator
+3. Enjoy!
 
-## Скриншоты
-### In Russian:
+## Screenshots  
+### In Russian:  
 ![ad-generator rus](https://user-images.githubusercontent.com/4050715/44120760-d26f5f34-a036-11e8-839a-da43067ff6a1.png)
 
-### In English:
+### In English:  
 ![ad-generator eng](https://user-images.githubusercontent.com/4050715/44120977-97561f54-a037-11e8-9600-054306c0b98b.png)
 
-### Gif Animation of Process:
+### Process GIF:
 ![ad-generator animation](https://user-images.githubusercontent.com/4050715/44121069-eda8e5a8-a037-11e8-854d-3d6ac1cb5780.gif)
 
+---
 
-***
+# [Documentation](https://github.com/AiratTop/ad-generator/wiki)
 
-# [Документация](https://github.com/AiratHalitov/ad-generator/wiki)
+## What is a text randomizer?
 
-## Что такое рандомизатор текста?
+A tool for industrial-level generation of pseudo-unique content. Often used when submitting a website to multiple directories — each listing gets a unique description from a search engine's perspective. Unlike typical synonymizers or content generators (doorway tools), this one preserves readability.
 
-Это - программа для промышленного создания псевдоуникального контента. Используется, например, при регистрации сайта во множестве каталогов. Чтобы в каждом каталоге сайт описывался уникальным с точки зрения поисковиков текстом. В отличие от аналогичных инструментов (синонимайзеры, доргены) позволяет максимально сохранить читабельность результирующих текстов.
+## How it works
 
-## Как работает рандомизатор?
-Берем некий исходный текст. Например: 
- 
-> Бытует мнение, что и копирайтинг (написание текстов) и рерайтинг (переработка готовых текстов) с успехом можно доверить текстовому рандомизатору – специальной программе.
+Start with a base text, e.g.:
 
-### Обрабатываем его специальным образом:
-1. Если "текст 1" можно заменить на "текст 2" или на "текст 3", то вместо "текст 1" вставляем инструкцию `{текст 1|текст 2|текст 3}`. 
-1. Если "текст" можно опустить, то вместо "текст" вставляем инструкцию `{|текст}`. 
-1. Если можно перемешать последовательность "текст 1 текст 2 текст 3", то вместо нее вставляем инструкцию `[текст 1|текст 2|текст 3]`. 
-1. Если можно перемешать последовательность "текст 1, текст 2, текст 3", то вместо нее вставляем инструкцию `[+,+текст 1|текст 2|текст 3]`. 
-1. Если можно перемешать абзацы "абзац1 абзац2 абзац3", то можно просто писать `абзац1|абзац2|абзац3`. 
-1. Если нужно вставить в текст какой-то спецсимвол `{, }, |, [, ], + или \`, то его следует экранировать: `\{, \}, \|, \[, \], \+ или \\`.
-1. Если нужно вставить случайное число - шаблон `%rand%` возвращает случайное число от 0 до 9
+> Some believe that both copywriting (writing texts) and rewriting (reworking existing ones) can successfully be entrusted to a text randomizer — a special program.
 
-**Инструкции могут иметь неограниченную вложенность.**
+### Apply the randomization syntax:
+1. If "text 1" can be replaced with "text 2" or "text 3", wrap with: `{text 1|text 2|text 3}`
+2. If "text" is optional, use: `{|text}`
+3. If the sequence "text 1 text 2 text 3" can be shuffled, use: `[text 1|text 2|text 3]`
+4. For comma-separated shuffle: `[+,+text 1|text 2|text 3]`
+5. For paragraph shuffle: `paragraph1|paragraph2|paragraph3`
+6. To escape special characters (`{, }, |, [, ], +, \`), use: `\{, \}, \|, \[, \], \+, \\`
+7. To insert a random digit (0–9): use `%rand%`
 
+**Instructions support unlimited nesting.**
 
-
-### Вариант обработки на скорую руку: 
+### Quick example:
 ```
-{ {Бытует|Существует|Есть|Имеется} мнение|{Некоторые|Многие} думают}, что и
-[+и+
- {копирайтинг (написание текстов)
- |написание текстов (копирайтинг)
- |написание текстов
- |копирайтинг
- }
-|{рерайтинг (переработку готовых текстов)
- |переработку готовых текстов (рерайтинг)
- |переработку готовых текстов
- |рерайтинг
- }
-] [{|с успехом}|можно] доверить
-[+–+{текстовому рандомизатору|рандомизатору {|текста|текстов}}
-|{специальной|особой} {программе|проге}
-].
+{{Some|Many|There is a} belief|{Some|Many} think} that 
+[+and+ 
+ {copywriting (writing texts)|writing texts (copywriting)|writing texts|copywriting}
+|{rewriting (reworking texts)|reworking texts (rewriting)|reworking texts|rewriting}
+] [{|can successfully}|can] be entrusted to 
+[+–+{a text randomizer|a randomizer of {|texts|content}}|a {special|dedicated} {program|tool}]
+.
 ```
 
-Скармливаем этот код рандомизатору и получаем кучу вариантов, таких как: 
- 
-> Некоторые думают, что и написание текстов и рерайтинг (переработку готовых текстов) с успехом можно доверить особой программе – рандомизатору.
+This code can generate 24,576 unique variations, such as:
 
-или 
- 
-> Есть мнение, что и переработку готовых текстов и написание текстов можно доверить текстовому рандомизатору – особой проге.
+> Many believe that copywriting and rewriting (reworking texts) can successfully be entrusted to a dedicated tool — a randomizer.
 
-Для приведенного в примере кода существует 24576 различных вариантов результирующих текстов.
+or
 
-### Итак, повторим: 
-* `{текст 1|текст 2|текст 3}` - перебор
-* `[текст 1|текст 2|текст 3]` - перестановки
-* `[+разделитель+текст 1|текст 2|текст 3]` - перестановки с разделителем
-* `{ } | [ ] + \` - экранизация спецсимволов в виде `\{, \}, \|, \[, \], \+ или \\`
-* `%rand%` возвращает случайное число от 0 до 9
-* Поддерживается вложенность дирректив
+> Some think that reworking texts and writing can be entrusted to a text randomizer — a special program.
 
-## Консольная версия скрипта
-Данный скрипт теперь можно запускать через коммандную строку, т.е. без установки плагина на WordPress сайт. Это гораздо быстрее и не ограничено ни по ресурсам, ни по выводу результатов. 
+### To summarize:
+* `{text 1|text 2|text 3}` – alternatives
+* `[text 1|text 2|text 3]` – permutations
+* `[+delimiter+text 1|text 2|text 3]` – permutations with delimiter
+* Special character escaping: `\{, \}, \|, \[, \], \+, \\`
+* `%rand%` returns a random number (0–9)
+* Supports nested instructions
 
-Необходимо запустить файл `ad-generator-cli.php`, как обычный php-файл, и на входе в параметрах скрипта задать файл с шаблоном, количеством выводимых вариантов и файл для записи результатов (необязательно):
+## Command-line version
 
-### Пример команды запуска скрипта:
+You can run the script via CLI, without installing the WordPress plugin — faster and unrestricted.
+
+Run the file `ad-generator-cli.php` as a regular PHP script, passing the input template file, number of outputs, and (optionally) output file:
+
+### Example command:
 ```
-php ad-generator-cli.php -n 300 -f shablon.txt -o result.txt
-```
-где 
-
-* `-n` или `-N` - количество вариантов на выходе (по умолчанию 300),
-* `-f` или `--file` - файл с шаблоном (обязательно),
-* `-o` или `--out` - файл с результатом (по умолчанию, `result-N.txt`),
-* `-h` или `--help` - вызов справки.
-
-Запускать эту команду нужно из папки плагина. Параметры разделяются пробелом, как в примере. У вас обязательно должны быть права на чтение и запись файлов в этой папке. На выходе вы получите файл, в котором будут сгенерированные по вашему шаблону случайные N вариантов.
-
-## [Примеры шаблонов](https://github.com/AiratHalitov/ad-generator/wiki/%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2)
-
-### Пример шаблона объявления для ниши «Ремонт квартир»
-Попробуйте вставить его в [рандомизатор](https://airat.biz/random/) и посмотрите, что получится на выходе. Это объявления можно публиковать на авито. 
-
-#### Заголовок объявления:
-```
-Ремонт {квартир|офисов|коттеджей} под ключ. Гарантия, {бригада|качество}
+php ad-generator-cli.php -n 300 -f template.txt -o result.txt
 ```
 
-#### Текст объявления:
+Where:
+
+* `-n` or `-N` – number of output variants (default: 300)
+* `-f` or `--file` – template file (required)
+* `-o` or `--out` – output file (default: `result-N.txt`)
+* `-h` or `--help` – show help
+
+Run from the plugin directory. Make sure you have read/write permissions.
+
+## [Template Examples](https://github.com/AiratTop/ad-generator/wiki/Template-Examples)
+
+### Ad example for “Apartment Renovation” niche:
+
+**Title:**
 ```
-Бригада {высококвалифицированных|опытных|ответственных} {ремонтников|работников|мастеров} {выполнит|произведет} {качественный|профессиональный} ремонт {Вашей квартиры|Вашего дома|Вашего жилища} по {разумной|приемлемой} {цене|стоимости}. {У нас|Мы|Ищите у нас|Почему мы|Обращайтесь к нам}:
-— {Закупка стройматериалов по {оптовым|сниженным} {ценам|расценкам}|Выполнение {всех видов|любых} работ в {кратчайшие|минимальные} сроки}.
-— {{Все|Наши} {рабочие|ремонтники} — граждане РФ|{Опыт|Стаж} {всех|наших} {рабочих|сотрудников|строителей} {5|6|7} лет}.
-— Гарантия на {все виды работ|{любые|выполненные} работы} {1|2|3} года.
-— {{Все|Любые} виды {ремонтно-отделочных|ремонтных|отделочных} работ {любой сложности|»от А до Я»|под ключ}.|Выезд {специалиста|замерщика} для консультации и замера — БЕСПЛАТНО!}
+Turnkey renovation of {apartments|offices|cottages}. Warranty, {team|quality}
+```
+
+**Body:**
+```
+A team of {highly qualified|experienced|reliable} {repairmen|workers|craftsmen} will {perform|carry out} a {quality|professional} renovation of {your apartment|your home|your residence} at a {reasonable|affordable} {price|cost}. {We offer|We provide|Why us|Choose us|Contact us}:
+— {Bulk purchase of materials at {wholesale|discounted} {prices|rates}|All types of work done in {short|minimal} time}.
+— {{All|Our} {workers|repairmen} are citizens of the Russian Federation|{Experience|Tenure} of {all|our} {workers|staff|builders} – {5|6|7} years}.
+— Warranty on {all types of work|{any|completed} work} for {1|2|3} years.
+— {{All|Any} types of {repair|finishing|construction} work {of any complexity|“from A to Z”|turnkey}.|Free visit of a {specialist|measurer} for consultation and measurements.}
 {===|* * *|***|# # #|~ ~ ~|- — -|___}
-{->>|=>|>>|->} ТОЛЬКО до %DATE {действует|работает} СКИДКА на {ремонт|проведение ремонта} {квартир|помещений|Вашей квартиры} «под ключ» – {15|20|10}%!!!
-{✆|☏|►} {ЗВОНИТЕ ПО ТЕЛЕФОНУ|ТЕЛЕФОН|ЗВОНИТЕ|Звоните прямо СЕЙЧАС|Звоните и заказывайте БЕСПЛАТНЫЙ замер}: %PHONE
+{->>|=>|>>|->} ONLY until %DATE — get a DISCOUNT on turnkey {apartment|room|property} renovation – {15|20|10}%!!!
+{✆|☏|►} {CALL US|PHONE|CALL NOW|Book a FREE estimate}: %PHONE
 ```
 
 ---
-### Ещё примеры:
 
-#### Дни недели:
+### More examples:
 
+#### Days of the week:
 ```
-{Понедельник|Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье}
+{Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday}
 ```
-
-или 
-
+or
 ```
-{ПН|ВТ|СР|ЧТ|ПТ|СБ|ВС}
+{Mon|Tue|Wed|Thu|Fri|Sat|Sun}
 ```
 
---- 
-#### Месяцы:
-
+#### Months:
 ```
-{Январь|Февраль|Март|Апрель|Май|Июнь|Июль|Август|Сентябрь|Октябрь|Ноябрь|Декабрь}
+{January|February|March|April|May|June|July|August|September|October|November|December}
 ```
 
-#### Дни месяца:
-
+#### Days of the month:
 ```
 {{|1|2}{0|1|2|3|4|5|6|7|8|9}|30|31}
 ```
-
-или проще
-
+or
 ```
-{1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31}
+{1|2|...|31}
 ```
 
-#### Числа:
-
-**0-9:**
-
+#### Numbers (0–9):
 ```
 {1|2|3|4|5|6|7|8|9|0}
 ```
-
-или 
-
+or
 ```
 %rand%
 ```
 
-**10-99 (двузначные):**
-
-```
-{1|2|3|4|5|6|7|8|9}{1|2|3|4|5|6|7|8|9|0}
-```
-
-или
- 
+#### Two-digit numbers (10–99):
 ```
 {1|2|3|4|5|6|7|8|9}%rand%
 ```
 
-#### Английский алфавит:
-
+#### English alphabet:
 ```
-{A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z}
-```
-
-#### Русский алфавит:
-
-```
-{А|Б|В|Г|Д|Е|Ё|Ж|З|И|Й|К|Л|М|Н|О|П|Р|С|Т|У|Ф|Х|Ц|Ч|Ш|Щ|Ъ|Ы|Ь|Э|Ю|Я}
+{A|B|C|D|...|Z}
 ```
 
-и т.д. Таким образом можно ставить абсолютно любые конструкции. Всё ограничено только вашей фантазией
+#### Russian alphabet:
+```
+{А|Б|В|...|Я}
+```
 
+Sky’s the limit — you're only bound by your imagination!
 
-***
+---
 
-## [Changelog](https://github.com/AiratHalitov/ad-generator/blob/master/CHANGELOG.md)
-
-### 2.2.0
-* Исправлен баг с подменой лишних пробелов
-* Рефакторинг кода рандомизатора
-* Добавлено больше примеров шаблонов
-
-### 2.0.1
-* Исправлен баг с появлением лишних пробелов (#12)
-
-### 2.0.0
-* Добавлена новая консольная версия
-* Обработка ошибок и справка в консольной версии
-* Добавлены теги label к выбору вариантов
-* Поправлено удаление лишних пробелов в результатах
-
-### 1.4.0
-* Увеличено число допустимых символов с 4000 до 10000
-* Исправлен автофокус на странице с формой
-
-### 1.3.2
-* Добавлены айдишники к выбору количества результатов
-* Обновлен URL лицензии
-* Добавлены скриншоты в README.md
-* Обновлены файлы для репозитория GitHub (DOCUMENTATION, ISSUE_TEMPLATE, README)
-* Изменен регистр названия репозитория Ad-Generator -> ad-generator
-* Обновлены файлы переводов
-
-### 1.3.1
-* Форматирование вывода результатов
-* Обновлены файлы переводов
-
-### 1.3.0
-* Добавлена возможность выбора количество отображаемых результатов
-
-### 1.2.3
-* `%rand%` возвращает случайное число от 0 до 9
-* Исправлена ошибка с лишними символами \
-* Форматирование и оптимизация кода
-
-### 1.2.2
-* Теперь работает поддержка разных языков (пока русский и английский)
-
-### 1.2.1
-* Добавил автоматические обновления через GitHub Updater
-* Поправил changelog.md
-* Прописал метаданные пакета
-* Поправил /languages/
-* Поправил шаблон генератора
-
-### 1.2.0
-* Добавил поддержку языковых файлов
-* Добавил русские и английские переводы
-* Обновил "рыбу" для рандомизации
-* Уменьшил макс. число символов в форме до 4000
-
-### 1.1.1
-* Добавлены айдишники ко всем полям и элементам
-* Настроена ширина поля. Оптимизация под мобильники
-* Визуальные настройки отображения элементов
-* Добавил поддержку composer (файл composer.json)
-* Расширил ISSUE_TEMPLATE.md
-* Оптимизация кода
-
-### 1.1.0
-* Решена проблема с множественными пробелами
-* Добавлена ссылка на проект GitHub
-* Добавлена кнопка очистки результатов
-* Настроено визульное оформление результатов
-* Обработка частных случаев разного количества результатов
-* Очистка вывода от обилия слешей
-
-### 1.0.2
-* Решил проблему с переносом строк
-* Добавил файлы для GitHub
-* Настроил правильный вывод результатов
-
-### 1.0.1
-* Объединил всё в одну функцию. Убрал лишнее и поправил ошибки
-* Проверил на тестовом сайте - всё работает
-Дальше:
-* Нужно навести красоту
-* Сделать так, чтобы генерировалось с переносами строк
-
-### 1.0.0
-* Initial Release
+## [Changelog](https://github.com/AiratTop/ad-generator/blob/master/CHANGELOG.md)
