@@ -1,16 +1,16 @@
 # [Ad Generator](https://github.com/AiratTop/ad-generator)
-* Contributors: [Airat Halitov](https://github.com/AiratTop)
+* Contributors: [AiratTop](https://github.com/AiratTop)
 * Requires at least: 3.8  
 * Tested up to: 5.6  
 * Stable tag: [2.2.0](https://github.com/AiratTop/ad-generator/releases/latest)  
 * License: GPLv3  
 * License URI: https://www.gnu.org/licenses/gpl-3.0.html  
 
-Professional text randomizer and ad generator by Airat Halitov.
+Professional text randomizer and ad generator by AiratTop.
 
 ## Description
 
-Professional text randomizer and ad generator by Airat Halitov.
+Professional text randomizer and ad generator by AiratTop.
 
 ## Installation
 
