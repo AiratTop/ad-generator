@@ -11,7 +11,7 @@
  *
  * @package    AiratTop/ad-generator
  * @category   Core
- * @author     Airat Halitov
+ * @author     AiratTop
  * @license    GPLv3
  * @link       https://github.com/AiratTop/ad-generator
  * @version    2.2.0
@@ -37,7 +37,7 @@ Arguments:
   -o, --out     result file (default: result-N.txt)
   -h, --help    show this help message
 
-Author: Airat Halitov
+Author: AiratTop
 Link: https://github.com/AiratTop/ad-generator
 
 END;

@@ -3,7 +3,7 @@
  * Plugin Name:        Ad Generator
  * Plugin URI:         https://github.com/AiratTop/ad-generator
  * Description:        Professional text randomizer and ad generator.
- * Author:             Airat Halitov
+ * Author:             AiratTop
  * Author URI:         https://airat.top
  * Version:            2.2.0
  * Text Domain:        ad-generator
@@ -16,7 +16,7 @@
 /**
  * @package    AiratTop/ad-generator
  * @category   Core
- * @author     Airat Halitov
+ * @author     AiratTop
  * @license    GPLv3
  * @link       https://github.com/AiratTop/ad-generator
  * @version    2.2.0
