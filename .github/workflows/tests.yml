@@ -1,0 +1,39 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  php:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ["8.3", "8.4", "8.5"]
+    container:
+      image: php:${{ matrix.php }}-cli
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Lint PHP files
+        run: find . -name "*.php" -type f -print0 | xargs -0 -n1 php -l
+
+      - name: Run parser smoke tests
+        run: php tests/smoke.php
+
+      - name: Run CLI smoke test
+        shell: sh
+        run: |
+          test_dir="$(mktemp -d)"
+          printf 'a' > "$test_dir/template.txt"
+          cd "$test_dir"
+          php "$GITHUB_WORKSPACE/ad-generator-cli.php" -n 1 -f template.txt -o result.txt
+          grep -q "Only 1 possible variant" result.txt
+          grep -q "a" result.txt

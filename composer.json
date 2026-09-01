@@ -31,9 +31,9 @@
 		}
 	],
 	"require": {
-		"php": ">=5.3.0",
-		"composer/installers": "^1.0",
-		"johnpbloch/wordpress": ">=3.8.0@stable"
+		"php": "^8.3",
+		"composer/installers": "^2.3",
+		"johnpbloch/wordpress": "^7.0"
 	},
 	"extra": {
 		"wordpress-install-dir": "vendor/wordpress"

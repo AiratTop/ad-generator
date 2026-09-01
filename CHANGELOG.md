@@ -1,5 +1,11 @@
 ## Changelog
 
+### 2.3.0
+* Raised the compatibility baseline to WordPress 7.0 and PHP 8.3
+* Hardened shortcode input and output handling
+* Improved CLI argument and file error handling
+* Made the CLI independent of the current working directory
+
 ### 2.2.0
 * Fixed bug with incorrect space replacements  
 * Refactored randomizer code  

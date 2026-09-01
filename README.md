@@ -1,8 +1,8 @@
 # [Ad Generator](https://github.com/AiratTop/ad-generator)
 * Contributors: [AiratTop](https://github.com/AiratTop)
-* Requires at least: 3.8  
-* Tested up to: 5.6  
-* Stable tag: [2.2.0](https://github.com/AiratTop/ad-generator/releases/latest)  
+* Requires WordPress: 7.0+
+* Requires PHP: 8.3+
+* Version: 2.3.0
 * License: Apache-2.0
 * License URI: https://www.apache.org/licenses/LICENSE-2.0
 
@@ -106,7 +106,8 @@ Where:
 * `-o` or `--out` – output file (default: `result-N.txt`)
 * `-h` or `--help` – show help
 
-Run from the plugin directory. Make sure you have read/write permissions.
+The CLI can be called from any working directory. Output paths remain relative to the current
+working directory, so make sure it is writable.
 
 ## [Template Examples](https://github.com/AiratTop/ad-generator/wiki/Template-Examples)
 

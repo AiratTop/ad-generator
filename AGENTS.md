@@ -13,7 +13,7 @@ Legacy text randomizer and ad generator project with two runtimes:
 ## WordPress Plugin Mode
 - Plugin shortcode: `[ad_generator]`.
 - Core randomization engine: `includes/Randomizer.php` (+ `includes/Node.php`).
-- Plugin metadata indicates legacy compatibility (`Requires WP 3.8`, `Tested up to 5.6`, `Requires PHP 5.4`).
+- Current compatibility baseline: WordPress 7.0 or newer and PHP 8.3 or newer.
 - Localization files are in `languages/`.
 
 ## CLI Mode
@@ -33,7 +33,7 @@ Legacy text randomizer and ad generator project with two runtimes:
 - Escaping: `\{`, `\}`, `\|`, `\[`, `\]`, `\+`, `\\`.
 
 ## AI Working Notes
-- Treat this repository as legacy: avoid broad refactors unless explicitly requested.
+- Treat the parser and its public syntax as legacy: avoid broad refactors unless explicitly requested.
 - Keep randomization syntax backward-compatible (plugin and CLI share same engine).
 - Keep shortcode name `[ad_generator]` unchanged for existing WP pages.
 - Preserve CLI argument compatibility and output defaults to avoid breaking existing scripts.
