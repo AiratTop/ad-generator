@@ -38,7 +38,7 @@ Professional text randomizer and ad generator by AiratTop.
 
 ---
 
-# [Documentation](https://github.com/AiratTop/ad-generator/wiki)
+## Documentation
 
 ## What is a text randomizer?
 
@@ -109,7 +109,7 @@ Where:
 The CLI can be called from any working directory. Output paths remain relative to the current
 working directory, so make sure it is writable.
 
-## [Template Examples](https://github.com/AiratTop/ad-generator/wiki/Template-Examples)
+## Template Examples
 
 ### Ad example for “Apartment Renovation” niche:
 
