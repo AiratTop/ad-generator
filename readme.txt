@@ -1,10 +1,11 @@
 === Ad Generator ===  
 Contributors: Airat Halitov  
-Requires at least: 3.8  
-Tested up to: 5.6  
-Stable tag: 2.2.0  
-License: GPLv3  
-License URI: https://www.gnu.org/licenses/gpl-3.0.html  
+Requires at least: 7.0
+Requires PHP: 8.3
+Tested up to: 7.1
+Stable tag: 2.3.0
+License: Apache-2.0
+License URI: https://www.apache.org/licenses/LICENSE-2.0
 
 Professional text randomizer and ad generator.
 
@@ -27,6 +28,13 @@ Professional text randomizer and ad generator for classifieds.
 3. Enjoy!
 
 == Changelog ==
+
+= 2.3.0 =
+* Raised the compatibility baseline to WordPress 7.0 and PHP 8.3
+* Hardened shortcode input and output handling
+* Improved CLI argument and file error handling
+* Made the CLI independent of the current working directory
+* Removed PHP 8.5 deprecation warnings from the parser
 
 = 2.2.0 =  
 * Fixed bug with extra space replacements  
