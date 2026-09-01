@@ -21,7 +21,7 @@ const DEFAULT_VARIANTS = 300;
 const MAX_VARIANTS = 1_000_000_000;
 
 function show_help(): void {
-	echo <<<'HELP'
+	echo <<<'HELP_TEXT'
 
 HELP:
 Version: 2.3.0
@@ -39,7 +39,7 @@ Arguments:
 Author: AiratTop
 Link: https://github.com/AiratTop/ad-generator
 
-HELP;
+HELP_TEXT;
 }
 
 function read_file( string $filename ): string {

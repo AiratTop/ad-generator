@@ -16,7 +16,7 @@ class Node
 
     private $_isSeparator = false;
 
-    public function __construct(Node $parent = null)
+    public function __construct(?Node $parent = null)
     {
         $this->_parent = $parent;
         if ($parent) {
@@ -149,7 +149,7 @@ class Node
         $var = strtolower($var);
         switch ((string) $var) {
             case 'isseparator':
-                $this->_isSeparator = (boolean) $value;
+                $this->_isSeparator = (bool) $value;
         }
     }
 }

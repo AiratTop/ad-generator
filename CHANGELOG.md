@@ -5,6 +5,7 @@
 * Hardened shortcode input and output handling
 * Improved CLI argument and file error handling
 * Made the CLI independent of the current working directory
+* Removed PHP 8.5 deprecation warnings from the parser
 
 ### 2.2.0
 * Fixed bug with incorrect space replacements  
