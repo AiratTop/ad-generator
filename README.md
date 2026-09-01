@@ -185,7 +185,7 @@ Sky’s the limit — you're only bound by your imagination!
 
 ---
 
-## [Changelog](https://github.com/AiratTop/ad-generator/blob/master/CHANGELOG.md)
+## [Changelog](CHANGELOG.md)
 
 ## License
 
