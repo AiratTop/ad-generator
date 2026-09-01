@@ -12,7 +12,7 @@
  * @package    AiratTop/ad-generator
  * @category   Core
  * @author     AiratTop
- * @license    GPLv3
+ * @license    Apache-2.0
  * @link       https://github.com/AiratTop/ad-generator
  * @version    2.2.0
  */

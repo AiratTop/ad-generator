@@ -12,12 +12,14 @@
  * Requires PHP:       5.4
  * Release Asset:      true
  * GitHub Plugin URI:  https://github.com/AiratTop/ad-generator
+ * License:            Apache-2.0
+ * License URI:        https://www.apache.org/licenses/LICENSE-2.0
  */
 /**
  * @package    AiratTop/ad-generator
  * @category   Core
  * @author     AiratTop
- * @license    GPLv3
+ * @license    Apache-2.0
  * @link       https://github.com/AiratTop/ad-generator
  * @version    2.2.0
  */

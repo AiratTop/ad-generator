@@ -3,8 +3,8 @@
 * Requires at least: 3.8  
 * Tested up to: 5.6  
 * Stable tag: [2.2.0](https://github.com/AiratTop/ad-generator/releases/latest)  
-* License: GPLv3  
-* License URI: https://www.gnu.org/licenses/gpl-3.0.html  
+* License: Apache-2.0
+* License URI: https://www.apache.org/licenses/LICENSE-2.0
 
 Professional text randomizer and ad generator by AiratTop.
 
@@ -185,3 +185,23 @@ Sky’s the limit — you're only bound by your imagination!
 ---
 
 ## [Changelog](https://github.com/AiratTop/ad-generator/blob/master/CHANGELOG.md)
+
+## License
+
+The original source code and technical documentation in this repository are licensed under the
+[Apache License 2.0](LICENSE), with copyright and third-party details in [NOTICE](NOTICE).
+
+WordPress (installed through `johnpbloch/wordpress`) and Composer Installers are third-party
+components distributed under their own licenses. Apache-2.0 is compatible with GPLv3; applicable
+GPL terms continue to govern WordPress and any combined distribution.
+
+---
+
+## Author
+
+**AiratTop (Airat Halitov)**
+
+- Website: [airat.top](https://airat.top)
+- GitHub: [@AiratTop](https://github.com/AiratTop)
+- Email: [mail@airat.top](mailto:mail@airat.top)
+- Repository: [ad-generator](https://github.com/AiratTop/ad-generator)
