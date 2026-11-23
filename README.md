@@ -122,7 +122,7 @@ Turnkey renovation of {apartments|offices|cottages}. Warranty, {team|quality}
 ```
 A team of {highly qualified|experienced|reliable} {repairmen|workers|craftsmen} will {perform|carry out} a {quality|professional} renovation of {your apartment|your home|your residence} at a {reasonable|affordable} {price|cost}. {We offer|We provide|Why us|Choose us|Contact us}:
 — {Bulk purchase of materials at {wholesale|discounted} {prices|rates}|All types of work done in {short|minimal} time}.
-— {{All|Our} {workers|repairmen} are citizens of the Russian Federation|{Experience|Tenure} of {all|our} {workers|staff|builders} – {5|6|7} years}.
+— {{All|Our} {workers|repairmen} are {reliable|responsible} local professionals|{Experience|Tenure} of {all|our} {workers|staff|builders} – {5|6|7} years}.
 — Warranty on {all types of work|{any|completed} work} for {1|2|3} years.
 — {{All|Any} types of {repair|finishing|construction} work {of any complexity|“from A to Z”|turnkey}.|Free visit of a {specialist|measurer} for consultation and measurements.}
 {===|* * *|***|# # #|~ ~ ~|- — -|___}
